@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Memory Game</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+  <h1>Total Players: <span class="tp">1</span></h1>
+
+  <div class="start">
+    <button onclick="start()" class="startGame">Start</button>
+  </div>
+<div class="wait-Area" style="display: none;">
+    <h1 class="Waiting">Waiting for Opponent....</h1>
+</div>
+    <div class="game-Area" style="display: none;">
+    <h1 class="memory">Memory Game</h1>
+  <h2>Score: <span class="score">0</span></h2>
+  <h2>Opp-Score: <span class="oppscore">0</span></h2>
+  <h1>Time: <span class="hrs">1</span> : <span class="min">00</span></h1>
+   <div class="box">
+    <div class="row">
+        <div class="a sq"></div>
+        <div class="b sq"></div>
+        <div class="c sq"></div>
+        <div class="d sq"></div>
+    </div>
+
+    <div class="row">
+        <div class="e sq"></div>
+        <div class="f sq"></div>
+        <div class="g sq"></div>
+        <div class="h sq"></div>
+    </div>
+
+    <div class="row">
+        <div class="i sq"></div>
+        <div class="j sq"></div>
+        <div class="k sq"></div>
+        <div class="l sq"></div>
+    </div>
+    <div class="row">
+        <div class="m sq"></div>
+        <div class="n sq"></div>
+        <div class="o sq"></div>
+        <div class="p sq"></div>
+    </div>
+   </div>
+
+   <script src="https://cdn.socket.io/4.8.1/socket.io.min.js" integrity="sha384-mkQ3/7FUtcGyoppY6bz/PORYoGqOl7/aSUMn2ymDOJcapfS6PHqxhRTMh1RR0Q6+" crossorigin="anonymous"></script>
+
+
+
+   <button class="restart" onclick="location.reload()">Restart</button>
+
+</div>
+
+<script src="./app.js"></script>
+</body>
+</html> 

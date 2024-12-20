@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css2?family=Parkinsans:wght@300..800&display=swap');
+
+*{
+    font-family: 'Parkinsans',sans-serif;
+}
+
+body{
+    width: 100vw;
+    height: 100vh;
+    overflow-x: hidden;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+h2{
+    text-align: left;
+    font-size: 20px;
+}
+
+h1{
+    font-size: 30px;
+}
+
+.box{
+width: 400px;
+height: 400px;
+background-color: black;
+}
+
+.row{
+    width: 400px;
+    height: 100px;
+    background-color: black;
+}
+
+.a, .b, .c, .d, .e, .f, .g, .h, .i, .j, .k, .l, .m, .n, .o, .p {
+width: 90px;
+height: 90px;
+background-color: white;
+margin-top: 5px;
+background-size: 100%;
+transition: .5s ease;
+}
+
+.row{
+    display: flex;
+    justify-content: space-evenly;
+
+}
+
+
+
+
+.timnasa{
+    color: white;
+    text-align: center;
+}
+
+
+
+
